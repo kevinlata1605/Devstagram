@@ -6,11 +6,21 @@
         <title>Devstagram - @yield('titulo') </title>
         @vite('resources/css/app.css')
     </head>
-    <body >
+    <body class="bg-gray-100">
+        <div class="container mx-auto  justify-between items-center">
         <header class="p-5 border-b bg-white shadow">
+
             <h1 class="text-3xl font-black">
                 DevStagram
             </h1>
+
+            <nav>
+                <a href="#">Login</a>
+                <a href="#">Crear Cuenta</a>
+
+            </nav>
+
+        </div>
         </header>
     </body>
 </html>
